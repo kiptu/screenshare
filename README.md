@@ -6,7 +6,7 @@ Share your Screen or Window, accessible by URL, made using WebRTC, Socket.IO, We
 * Run `npm i` in base directory
 * In /src/server/ run `pip install -r requirements.txt`
 
-## Starting
+## Starting dev environment
 * In base directory run `npm start`
 * In /src/server/ run `python app.py`
 
