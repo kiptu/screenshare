@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-screenshare-url",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -r dist",
+    "build": "webpack",
+    "start": "npm run build && http-server -o /dist/"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "copy-webpack-plugin": "^10.2.1"
+  }
+}
