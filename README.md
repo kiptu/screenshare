@@ -11,6 +11,7 @@ Share your Screen or Window, accessible by URL, made using WebRTC, Socket.IO, We
 * In /src/server/ run `python app.py`
 
 ## Features
+* WebRTC Client and Signalling Server
 * Multi Peer-to-Peer
 * Stream is publicly accessible by others per room uuid
 * Stream can be added into software like OBS
