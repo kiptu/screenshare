@@ -8,7 +8,7 @@
     "start": "npm run build && http-server -o /dist/"
   },
   "dependencies": {
-    "socket.io-client": "^4.4.1"
+    "socket.io-client": "^4.6.1"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
