@@ -1,0 +1,29 @@
+{
+  "name": "screenshare",
+  "version": "1.0.0",
+  "description": "Share your screen over the web with WebRTC",
+  "author": "Kiptu Software Labs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "pip": "pip install -r server/requirements.txt",
+    "server": "python server/app.py",
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "lint:check": "eslint \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/snowpack-env": "^2.3.4",
+    "@typescript-eslint/eslint-plugin": "5.59.0",
+    "@typescript-eslint/parser": "5.59.0",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "snowpack": "^3.8.8",
+    "typescript": "^5.0.4"
+  }
+}
