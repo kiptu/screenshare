@@ -1,16 +1,10 @@
-<div align="center">
- 
-```php
-                                                
+```php                                             
 ____ ____ ____ ____ ____ _  _ ____ _  _ ____ ____ ____ 
 [__  |    |__/ |___ |___ |\ | [__  |__| |__| |__/ |___ 
 ___] |___ |  \ |___ |___ | \| ___] |  | |  | |  \ |___ 
                                                                                              
 Share your screen over the web with WebRTC
- 
 ```
- 
-</div>
 
 ## <samp>INSTALLATION</samp>
 _Requirements:_ **Python** and **NPM** installed
@@ -30,10 +24,6 @@ _Requirements:_ **Python** and **NPM** installed
 
 <br>
 
-<div align="right">
-
 ```
 Kiptu Software Labs 💜
 ```
-
-</div>
